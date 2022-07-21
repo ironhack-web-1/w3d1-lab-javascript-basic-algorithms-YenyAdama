@@ -14,7 +14,17 @@ if(hacker1.length>hacker2.length){
     let text="The navigator´s has the longest name, it has ";
     console.log(`${text} ${hacker2.length}` + ` characters.`);
 }
-
-
-
 // Iteration 3: Loops
+//3.1
+let mayusc="";
+for(let i=0;i<hacker1.length;++i){
+    mayusc+=hacker1[i].toUpperCase()+" ";
+}
+console.log(mayusc);
+//3.2
+let inverter="";
+for(let j=hacker2.length-1;j>=0;--j){
+    inverter+=hacker2[j];
+}
+console.log(inverter);
+//3.3
