@@ -28,3 +28,16 @@ for(let j=hacker2.length-1;j>=0;--j){
 }
 console.log(inverter);
 //3.3
+let hack1=hacker1.split("");
+let hack2=hacker2.split("");
+hack_d=hack1.sort();
+hack_n=hack2.sort();
+if(hack_d>hack_n){
+    console.log("The driver's name goes first: "+hack_d.join(""));
+}
+else{
+    console.log("the navigator goes first definitely:"+hack_n.join(""));
+}
+
+
+
